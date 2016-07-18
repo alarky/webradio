@@ -1,0 +1,65 @@
+
+body {
+    background-color: #111;
+    color: #ddd;
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 20px;
+    line-height: 2rem;
+
+    background-image: url("../img/minimal.png");
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: #ddd;
+}
+
+.mdl-button {
+    color: #ddd;
+}
+
+header {
+    left: 0;
+    right: 0;
+    width: 640px;
+    margin: auto;
+}
+
+main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+
+    width: 640px;
+    height: 663px;
+}
+
+.player {
+    text-align: center;
+}
+
+.play-cell {
+    width: 56px;
+}
+
+.volume-cell {
+    width: 200px;
+}
+
+.station-link {
+    font-size: 2rem;
+}
+
+.station {
+    cursor: pointer;
+    background-color: rgba(255,255,255,0.2);
+    padding: 10px;
+}
+
